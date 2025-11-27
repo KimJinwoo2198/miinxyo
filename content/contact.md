@@ -1,7 +1,6 @@
 # Contact
 
 email: minxyo13@gmail.com
-phone: 010-9510-1463
 
 ## Social
 
