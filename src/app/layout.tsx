@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteTitle = "Mingyo Studio · Spatial Designer";
+const siteTitle = "Mingyo | About";
 const siteDescription =
-  "GSAP · Next.js 기반으로 공간과 디지털을 잇는 인터랙티브 브랜드 경험을 설계합니다.";
+  "사용자 경험을 담아, 기억에 남는 디자인으로 세상을 그려나가다.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mingyo.studio"),
+  metadataBase: new URL("https://miinxyo.me/"),
   title: siteTitle,
   description: siteDescription,
   openGraph: {
     title: siteTitle,
     description: siteDescription,
-    url: "https://mingyo.studio",
-    siteName: "Mingyo Studio",
+    url: "https://miinxyo.me/",
+    siteName: "Mingyo",
     locale: "ko_KR",
     type: "website",
     images: [
