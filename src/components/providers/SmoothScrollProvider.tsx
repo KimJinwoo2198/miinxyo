@@ -16,7 +16,6 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
     const lenis = new Lenis({
       duration: 1.1,
       smoothWheel: true,
-      smoothTouch: false,
       syncTouch: true,
       gestureOrientation: "vertical",
       easing: (t) => 1 - Math.pow(1 - t, 3),
